@@ -1,0 +1,279 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e1]:
+    - link "Skip to main panel" [ref=e3] [cursor=pointer]:
+      - /url: "#"
+    - banner "Top Bar" [ref=e4]:
+      - img [ref=e6]
+      - navigation "main menu" [ref=e18]:
+        - menubar [ref=e20]:
+          - menuitem "File" [ref=e21]:
+            - generic [ref=e22]: File
+          - menuitem "Edit" [ref=e23]:
+            - generic [ref=e24]: Edit
+          - menuitem "View" [ref=e25]:
+            - generic [ref=e26]: View
+          - menuitem "Run" [ref=e27]:
+            - generic [ref=e28]: Run
+          - menuitem "Kernel" [ref=e29]:
+            - generic [ref=e30]: Kernel
+          - menuitem "Tabs" [ref=e31]:
+            - generic [ref=e32]: Tabs
+          - menuitem "Settings" [ref=e33]:
+            - generic [ref=e34]: Settings
+          - menuitem "Help" [ref=e35]:
+            - generic [ref=e36]: Help
+      - toolbar "Topbar toolbar" [ref=e37]
+    - generic [ref=e40]:
+      - complementary "main sidebar" [ref=e41]:
+        - tablist "main sidebar" [ref=e42]:
+          - tab "File Browser (⇧ ⌘ F)" [selected] [ref=e43]:
+            - img [ref=e45]
+          - tab "Running Terminals and Kernels" [ref=e47]:
+            - img [ref=e49]
+          - tab "Table of Contents" [ref=e51]:
+            - img [ref=e53]
+      - generic [ref=e56]:
+        - region "File Browser Section" [ref=e58]:
+          - toolbar "file browser" [ref=e59]:
+            - generic [ref=e60]:
+              - generic:
+                - generic "New Launcher (⇧ ⌘ L)" [ref=e62] [cursor=pointer]:
+                  - button "New Launcher (⇧ ⌘ L)" [ref=e63]:
+                    - generic [ref=e64]:
+                      - generic:
+                        - img
+                - generic "New Folder" [ref=e66] [cursor=pointer]:
+                  - button "New Folder" [ref=e67]:
+                    - generic [ref=e68]:
+                      - generic:
+                        - img
+                - generic "Upload Files" [ref=e70] [cursor=pointer]:
+                  - button "Upload Files" [ref=e71]:
+                    - generic [ref=e72]:
+                      - generic:
+                        - img
+                - generic "Refresh the file browser." [ref=e74] [cursor=pointer]:
+                  - button "Refresh the file browser." [ref=e75]:
+                    - generic [ref=e76]:
+                      - generic:
+                        - img
+                - generic "Toggle File Filter" [ref=e78] [cursor=pointer]:
+                  - button "Toggle File Filter" [ref=e79]:
+                    - generic [ref=e80]:
+                      - generic:
+                        - img
+          - region "side panel content" [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic "Jupyter Server Root" [ref=e84]:
+                  - img [ref=e85] [cursor=pointer]
+                - text: /
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: Name
+                    - img [ref=e92]
+                  - generic [ref=e96]: Modified
+                - list [ref=e97]:
+                  - 'listitem "Name: intro.ipynb Size: 5.2 KB Created: 10/17/25, 7:45 PM Modified: 10/17/25, 7:18 PM Writable: true" [ref=e98]':
+                    - generic [ref=e99]:
+                      - img [ref=e101]
+                      - generic [ref=e105]: intro.ipynb
+                    - generic "10/17/25, 7:18 PM" [ref=e106]: 54m ago
+                  - 'listitem "Name: pyodide-demo.ipynb Size: 1.7 KB Created: 10/17/25, 7:45 PM Modified: 10/17/25, 7:19 PM Writable: true" [ref=e107]':
+                    - generic [ref=e108]:
+                      - img [ref=e110]
+                      - button "pyodide-demo.ipynb" [ref=e114]
+                    - generic "10/17/25, 7:19 PM" [ref=e115]: 53m ago
+        - main "Main Content" [ref=e117]:
+          - generic [ref=e118]:
+            - tablist [ref=e119]:
+              - tab "Launcher" [ref=e120]:
+                - img [ref=e122]
+                - generic [ref=e124]: Launcher
+                - generic "Close Launcher" [ref=e125]:
+                  - img [ref=e126]
+              - tab "pyodide-demo.ipynb" [selected] [ref=e130]:
+                - img [ref=e132]
+                - generic [ref=e136]: pyodide-demo.ipynb
+                - generic "Close pyodide-demo.ipynb" [ref=e137]:
+                  - img [ref=e138]
+            - button "New Launcher" [ref=e142]:
+              - img [ref=e143]
+          - tabpanel "pyodide-demo.ipynb" [ref=e145]:
+            - toolbar "main area toolbar" [ref=e146]:
+              - generic [ref=e147]:
+                - generic:
+                  - generic "Save and create checkpoint (⌘ S)" [ref=e149] [cursor=pointer]:
+                    - button "Save and create checkpoint (⌘ S)" [ref=e150]:
+                      - generic [ref=e151]:
+                        - generic:
+                          - img
+                  - generic "Insert a cell below (B)" [ref=e153] [cursor=pointer]:
+                    - button "Insert a cell below (B)" [ref=e154]:
+                      - generic [ref=e155]:
+                        - generic:
+                          - img
+                  - generic "Cut this cell (X)" [ref=e157] [cursor=pointer]:
+                    - button "Cut this cell (X)" [ref=e158]:
+                      - generic [ref=e159]:
+                        - generic:
+                          - img
+                  - generic "Copy this cell (C)" [ref=e161] [cursor=pointer]:
+                    - button "Copy this cell (C)" [ref=e162]:
+                      - generic [ref=e163]:
+                        - generic:
+                          - img
+                  - generic "Paste this cell from the clipboard (V)" [ref=e165] [cursor=pointer]:
+                    - button "Paste this cell from the clipboard (V)" [ref=e166]:
+                      - generic [ref=e167]:
+                        - generic:
+                          - img
+                  - generic "Run this cell and advance (⇧ ⏎)" [ref=e169] [cursor=pointer]:
+                    - button "Run this cell and advance (⇧ ⏎)" [ref=e170]:
+                      - generic [ref=e171]:
+                        - generic:
+                          - img
+                  - generic "Interrupt the kernel" [ref=e173] [cursor=pointer]:
+                    - button "Interrupt the kernel" [ref=e174]:
+                      - generic [ref=e175]:
+                        - generic:
+                          - img
+                  - generic "Restart the kernel" [ref=e177] [cursor=pointer]:
+                    - button "Restart the kernel" [ref=e178]:
+                      - generic [ref=e179]:
+                        - generic:
+                          - img
+                  - generic "Restart the kernel and run all cells" [ref=e181] [cursor=pointer]:
+                    - button "Restart the kernel and run all cells" [ref=e182]:
+                      - generic [ref=e183]:
+                        - generic:
+                          - img
+                  - generic [ref=e185]:
+                    - combobox "Cell type" [ref=e186]:
+                      - option "-"
+                      - option "Code"
+                      - option "Markdown" [selected]
+                      - option "Raw"
+                    - generic:
+                      - img
+                  - generic "Click to open kernel logs" [ref=e189] [cursor=pointer]:
+                    - img [ref=e192]
+                  - generic "No Kernel" [ref=e196] [cursor=pointer]:
+                    - button "No Kernel" [ref=e197]:
+                      - generic [ref=e199]: No Kernel
+                  - progressbar "Kernel status" [ref=e202]:
+                    - img [ref=e203]
+            - region "main area content" [ref=e205]:
+              - generic [ref=e206]:
+                - feed "Cells" [ref=e208]:
+                  - generic "Markdown Cell Content" [ref=e209]:
+                    - generic [ref=e213]:
+                      - toolbar "Cell toolbar" [ref=e214]:
+                        - generic [ref=e215]:
+                          - generic:
+                            - generic "Create a duplicate of this cell below" [ref=e217] [cursor=pointer]:
+                              - button "Create a duplicate of this cell below" [ref=e218]:
+                                - generic [ref=e219]:
+                                  - generic:
+                                    - img
+                            - generic "Move this cell up (⌃ ⇧ ↑)" [ref=e221]:
+                              - button "Move this cell up (⌃ ⇧ ↑)" [disabled] [ref=e222]:
+                                - generic [ref=e223]:
+                                  - generic:
+                                    - img
+                            - generic "Move this cell down (⌃ ⇧ ↓)" [ref=e225] [cursor=pointer]:
+                              - button "Move this cell down (⌃ ⇧ ↓)" [ref=e226]:
+                                - generic [ref=e227]:
+                                  - generic:
+                                    - img
+                            - generic "Insert a cell above (A)" [ref=e229] [cursor=pointer]:
+                              - button "Insert a cell above (A)" [ref=e230]:
+                                - generic [ref=e231]:
+                                  - generic:
+                                    - img
+                            - generic "Insert a cell below (B)" [ref=e233] [cursor=pointer]:
+                              - button "Insert a cell below (B)" [ref=e234]:
+                                - generic [ref=e235]:
+                                  - generic:
+                                    - img
+                            - generic "Delete this cell (D, D)" [ref=e237] [cursor=pointer]:
+                              - button "Delete this cell (D, D)" [ref=e238]:
+                                - generic [ref=e239]:
+                                  - generic:
+                                    - img
+                      - button [ref=e241] [cursor=pointer]
+                      - generic [ref=e242]:
+                        - heading "Pyodide Runtime Demo" [level=1] [ref=e243]: Pyodide Runtime Demo
+                        - paragraph [ref=e244]: This notebook runs entirely in the browser using the Python (Pyodide) kernel bundled with this JupyterLite build.
+                        - paragraph [ref=e245]: Use the cells below to inspect the runtime environment and verify WASM execution.
+                  - generic "Code Cell Content" [ref=e246]:
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: "[ ]:"
+                      - textbox [ref=e255]:
+                        - generic [ref=e256]: import sys, platform
+                        - generic [ref=e257]: "print(f'Python version: {sys.version.split()[0]}')"
+                        - generic [ref=e258]: "print(f'Pyodide platform: {platform.platform()}')"
+                        - generic [ref=e259]: "print(f'WASM runtime: {sys.implementation.name}')"
+                  - generic "Code Cell Content" [ref=e260]:
+                    - generic [ref=e264]:
+                      - generic [ref=e265]: "[ ]:"
+                      - textbox [ref=e269]:
+                        - generic [ref=e270]: "# Quick computation to show the kernel is responsive"
+                        - generic [ref=e271]: "def fibonacci(n):"
+                        - generic [ref=e272]: "if n < 2:"
+                        - generic [ref=e273]: return n
+                        - generic [ref=e274]: a, b = 0, 1
+                        - generic [ref=e275]: "for _ in range(2, n + 1):"
+                        - generic [ref=e276]: a, b = b, a + b
+                        - generic [ref=e277]: return b
+                        - generic [ref=e279]: "[fibonacci(n) for n in range(10)]"
+                - button "Click to add a cell." [ref=e280] [cursor=pointer]
+      - complementary "alternate sidebar" [ref=e281]:
+        - tablist "alternate sidebar" [ref=e282]:
+          - tab "Property Inspector" [ref=e283]:
+            - img [ref=e285]
+    - contentinfo "Bottom Panel" [ref=e287]:
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - switch "Simple" [ref=e291]:
+            - generic "Simple Interface (⇧ ⌘ D)" [ref=e292]: Simple
+          - generic "0 Terminals, 0 Kernel sessions" [ref=e294]:
+            - button "0" [ref=e295] [cursor=pointer]:
+              - generic [ref=e297]:
+                - generic [ref=e298]: "0"
+                - img [ref=e301]
+          - button "No Kernel | Initializing" [ref=e304]
+        - generic [ref=e305]:
+          - generic "Notebook is in Command mode" [ref=e306]: "Mode: Command"
+          - 'generic "Notebook not trusted: 0 of 2 code cells trusted." [ref=e307]':
+            - img [ref=e309]
+          - button "Ln 1, Col 1" [ref=e312]
+          - generic [ref=e313]: pyodide-demo.ipynb
+          - button "0" [ref=e315]:
+            - generic [ref=e316]: "0"
+            - img [ref=e319]
+  - text: No results
+  - dialog [ref=e321]:
+    - generic [ref=e322]:
+      - generic [ref=e323]: Select Kernel
+      - generic [ref=e324]:
+        - generic [ref=e325]: "Select kernel for: \"pyodide-demo.ipynb\""
+        - generic [ref=e326]:
+          - combobox [ref=e327]:
+            - option "No Kernel" [selected]
+          - generic:
+            - img
+      - generic [ref=e328]:
+        - generic "Remember my choice and always start the preferred kernel" [ref=e329]:
+          - checkbox "Always start the preferred kernel" [ref=e330]
+          - text: Always start the preferred kernel
+        - generic [ref=e331]:
+          - button "No Kernel" [ref=e332]:
+            - generic "No Kernel" [ref=e333]
+          - button "Select Kernel" [active] [ref=e334]:
+            - generic "Select Kernel" [ref=e335]: Select
+```

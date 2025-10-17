@@ -1,0 +1,8 @@
+name = "jupyterlite-lite"
+main = "workers/worker.ts"
+compatibility_date = "2025-10-17"
+workers_dev = true
+
+[assets]
+binding = "ASSETS"
+directory = "./dist"

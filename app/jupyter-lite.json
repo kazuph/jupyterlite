@@ -6,6 +6,7 @@
     "appUrl": "./lab",
     "baseUrl": "./",
     "defaultKernelName": "python",
+    "workspace": "default",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [],
     "fullLabextensionsUrl": "./extensions",

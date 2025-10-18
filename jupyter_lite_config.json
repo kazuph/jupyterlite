@@ -1,6 +1,7 @@
 {
   "LiteBuildConfig": {
-    "contents": ["content", "../examples"],
+    "lite_dir": "app",
+    "contents": ["app/content", "examples"],
     "federated_extensions": [
       "https://github.com/jupyterlite/p5-kernel/releases/download/v0.1.0/jupyterlite_p5_kernel-0.1.0-py3-none-any.whl"
     ]
